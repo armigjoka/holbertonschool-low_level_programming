@@ -1,15 +1,11 @@
 #include <unistd.h>
-Write a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
-
+#include <stdio.h>
 /**
-* main - Entry point
-* Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",followed by a new line, to standard error.
-*
-* Return: Always 1 (Success)
-*/
+ * main - Entry point
+ * Return: Always 1 (Error)
+ */
 int main(void)
 {
-	write(2,
-			"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"59);
-	    return (1);
-}	    
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	return (1);
+}
