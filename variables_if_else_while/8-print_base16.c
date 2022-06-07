@@ -3,21 +3,20 @@
 #include <time.h>
 /**
  * main - Entry point
- * prints the size of various types on the computer it is compiled and run on.
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n;
-
-	for (n = '0'; n >= '16'; n--)
-
+char n;
+char c;
+for (n = '0'; n <= '9'; n++)
 	{
 		putchar (n);
 	}
-	for (n = 'a'; n >= 'f'; n++)
+	for (c = 'a'; c <= 'f'; c++)
 	{
-		putchar(n);
+		putchar (c);
 	}
 	putchar('\n');
 	return (0);
