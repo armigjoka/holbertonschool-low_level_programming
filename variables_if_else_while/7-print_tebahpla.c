@@ -7,17 +7,14 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-
 {
-	int c;
+	char n;
 
-	for (c = 'z'; c <= 'a'; c++)
+	for (n = 'z'; n >= 'a'; n--)
+
 	{
-
-	putchar (c);
-	
+		putchar (n);
 	}
-	
 	putchar ('\n');
 	return (0);
 }
