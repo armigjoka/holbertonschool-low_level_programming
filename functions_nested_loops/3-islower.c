@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - Entry point
- * @c The character to print
+ * @c: The character to print
  *
  * Return: On uppercase 1.
  * On lowercase, 0 is returned.
