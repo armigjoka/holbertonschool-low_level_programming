@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - Entry point
+ * _isalpha - Entry point
  * @c: The character to print
  *
  * Return: On uppercase 1.
