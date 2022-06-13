@@ -2,7 +2,6 @@
 
 /**
  * print_most_numbers - check the code
- * @c: to be checked
  * Return: (0)
  */
 void print_most_numbers(void)
