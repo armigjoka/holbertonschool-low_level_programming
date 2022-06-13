@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_isupper Entry - point
+ *_isupper - Entry point
  * @c: uppercase
  * Return:  0 or 1.
  */
