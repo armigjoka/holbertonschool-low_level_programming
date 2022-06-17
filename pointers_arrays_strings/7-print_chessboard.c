@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * _chessboard - entry
+ * print_chessboard - entry
  * @a:pointer
- * Return: 0
+ * print the chessboard
+ *
  */
 void print_chessboard(char (*a)[8])
 {
