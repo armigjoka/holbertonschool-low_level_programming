@@ -6,7 +6,7 @@
  * @s1: first contains
  * @s2: second contains
  *
- * Return: NUll
+ * Return: char
  */
 char *str_concat(char *s1, char *s2)
 {
@@ -32,10 +32,14 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
+	for (l = 0; l < size1; l++)
+	{
+		a[l] = s1[l];
+	}
 	for (j = 0; j < size2; j++)
 	{
 		a[l] = s2[j];
-		j++;
+		l++;
 	}
 	return (a);
 }
