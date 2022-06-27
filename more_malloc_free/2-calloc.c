@@ -4,16 +4,14 @@
 /**
  * _calloc - entry point
  * @nmemb: elements of size bytes
- * @size: int
+ * @i: int
  * Return: s
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int i;
 	char *s;
-
-	i = 0;
-
+	
 	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
@@ -23,7 +21,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < size; i++)
+	for (i = 0; i < nmemb * size; i++)
 	{
 		s[i] = 0;
 	}
