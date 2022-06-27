@@ -4,14 +4,14 @@
 /**
  * _calloc - entry point
  * @nmemb: elements of size bytes
- * @i: int
+ * @size: size of bytes
  * Return: s
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int i;
 	char *s;
-	
+
 	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
