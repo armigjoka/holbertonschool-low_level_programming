@@ -2,8 +2,8 @@
 
 void first_before_main(void)__attribute((constructor));
 /**
- * first_before main - function to print before the main function is executed 
- * Return: void 
+ * first_before_main - function to print text before main funcion is executed
+ * Return: void
  */
 void first_before_main(void)
 {
