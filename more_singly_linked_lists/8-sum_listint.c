@@ -2,7 +2,7 @@
 #include "lists.h"
 /**
  * sum_listint - function that returns the sum
- * @n: value
+ * @head: head of the list
  * Return: the sum
  */
 int sum_listint(listint_t *head)
