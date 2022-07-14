@@ -1,0 +1,33 @@
+#include "lists.h"
+/**
+ * delete_nodeint_at_index - structure to print
+ * @head: pointer of the list
+ * @index: index to insert new node
+ * Return: 1 or -1
+ */
+int delete_nodeint_at_index(listint_t **head, unsigned int index)
+{
+	unsigned int j = 0;
+	listint_t *tmp1 = *head, *tmp;
+
+	if (*head == NULL)
+	{
+		return (-1);
+	}
+	if (index == 0)
+	{
+		*head = (*head)->next;
+		free(tmp1);
+		return (1);
+	}
+	while (j < (index - 1))
+	{
+		if (tmp1->next == NULL)
+			return (-1);
+		j++;
+	}
+	tmp = tmp1->next;
+	tmp1->next = tmp->next;
+	free(tmp);
+	return (1);
+}
