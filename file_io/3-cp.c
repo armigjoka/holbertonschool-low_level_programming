@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 	int f_d1, f_d2;
 	int write_n, read_n;
 	char *buffer[1024];
-	
+
 	if (argc != 3)
 		exit_p(97, NULL, 0);
 	f_d2 = open(argv[2], O_CREAT | O_TRUNC | O_WRONLY, 0664);
