@@ -1,7 +1,6 @@
 #include "hash_tables.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <stddef.h>
 #include <string.h>
 
 /**
